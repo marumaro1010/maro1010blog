@@ -71,6 +71,73 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Hello-Hexo" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/maro1010blog/2024/03/02/Hello-Hexo/" class="article-date">
+  <time class="dt-published" datetime="2024-03-02T14:27:03.000Z" itemprop="datePublished">2024-03-02</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/maro1010blog/2024/03/02/Hello-Hexo/">Hello Hexo</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>前置作業</p>
+<ul>
+<li>先確認自己的電腦有沒有安裝<a target="_blank" rel="noopener" href="https://nodejs.org/en">node.js</a></li>
+</ul>
+<p>安裝hexo</p>
+<ul>
+<li><code>npm install -g hexo-cli</code></li>
+</ul>
+<p>來開始產生Blog吧!</p>
+<ul>
+<li><code>hexo init &lt;folder&gt;</code><br> 這個指令會把<a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-starter.git">hexo必備的檔案</a>先clone下來<br> <img src="/maro1010blog/img/hexo-start.png" alt="hexo-starter"></li>
+<li>再來打開該folder，輸入<code>npm install</code>把 <code>package.json</code>列出的套件都安裝起來，就完成了一大步囉!</li>
+</ul>
+<p>關於hexo目錄下檔案們</p>
+<pre><code>├── _config.yml  # 關於blog的設置，例如網址的連結,語系時間及部屬方式都在這裡設定
+├── package.json # npm install 會根據package.json的套件安裝，並產生出package-lock.json
+├── scaffolds # 文章的模板都放在這，Hexo會根據這些模板產生檔案
+|   ├── draft.md
+|   └── post.md
+|   └── page.md
+├── source # 產生的文章的地方,也可以放圖片資源等等。但放在_drafts不會一起發出去
+|   ├── _drafts
+|   └── _posts
+└── themes # 部落格的樣式，可以自訂義喜歡的樣子，也可以去nexo theme尋找喜歡的樣式
+└── .nojekyll # 如果要部屬在github，就必須新增該空白檔案
+</code></pre>
+<p>參考連結<br><a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/setup">Hexo 文件</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://marumaro1010.github.io/maro1010blog/2024/03/02/Hello-Hexo/" data-id="clta7wktk0000stwd3pqk7fq0" data-title="Hello Hexo" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/maro1010blog/tags/hexo/" rel="tag">hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="_post-githubpage" class="h-entry article article-type-_post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/maro1010blog/2024/02/26/githubpage/" class="article-date">
@@ -95,7 +162,8 @@
       
         <p>這邊使用github page和hexo建置自己的blog<br>由於github page是以Jekyll建置而成的<br>所以用Jekyll以外的生成器，會在build page的過程中會出現問題…</p>
 <p>解決方式<br>就是在根目錄新增一個.nojekyll的空白檔案即可。<br>這樣推到github page上進行建置就不會出問題了^^</p>
-<p>由於我對建置blog的過程目前不太熟悉，會以github page建置為主題，來記錄自己會踩到的坑</p>
+<hr>
+<p>所以會想建立部落格，想要紀錄一下不論是在工作上或著是自己在家寫程式時碰到的坑….<br>寫程式很容易，但是解BUG不容易</p>
 
       
     </div>
@@ -106,57 +174,6 @@
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/maro1010blog/tags/github/" rel="tag">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/maro1010blog/tags/hexo/" rel="tag">hexo</a></li></ul>
 
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/maro1010blog/2024/02/26/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2024-02-26T15:24:26.365Z" itemprop="datePublished">2024-02-26</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/maro1010blog/2024/02/26/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://marumaro1010.github.io/maro1010blog/2024/02/26/hello-world/" data-id="clt33d1js0000zkwdh16jajg8" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
-      
-      
-      
     </footer>
   </div>
   
@@ -188,7 +205,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/maro1010blog/tags/github/" style="font-size: 10px;">github</a> <a href="/maro1010blog/tags/hexo/" style="font-size: 10px;">hexo</a>
+      <a href="/maro1010blog/tags/github/" style="font-size: 10px;">github</a> <a href="/maro1010blog/tags/hexo/" style="font-size: 20px;">hexo</a>
     </div>
   </div>
 
@@ -197,7 +214,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archiv</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/maro1010blog/archives/2024/02/">February 2024</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/maro1010blog/archives/2024/03/">March 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/maro1010blog/archives/2024/02/">February 2024</a></li></ul>
     </div>
   </div>
 
@@ -210,11 +227,11 @@
       <ul>
         
           <li>
-            <a href="/maro1010blog/2024/02/26/githubpage/">來建置自己的blog</a>
+            <a href="/maro1010blog/2024/03/02/Hello-Hexo/">Hello Hexo</a>
           </li>
         
           <li>
-            <a href="/maro1010blog/2024/02/26/hello-world/">Hello World</a>
+            <a href="/maro1010blog/2024/02/26/githubpage/">來建置自己的blog</a>
           </li>
         
       </ul>
